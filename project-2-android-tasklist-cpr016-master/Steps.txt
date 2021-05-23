@@ -1,0 +1,15 @@
+So what will I actually need for this?
+X Create Main Activity view
+X Create Task class
+X create RecyclerAdapter class
+- Create Add activity
+
+
+
+
+- Viewholder for creating the individual recyclerview cells
+	- so recyclerview is the overall view. I will only need one viewholder
+	- should viewholder have an array of tasks? Yes
+	- Viewholder should create a listview based on the size of the array of tasks
+	- recreate the list every time a task is edited/added
+- Create second constructor for Add activity for edits. Needs Add(editedItem)

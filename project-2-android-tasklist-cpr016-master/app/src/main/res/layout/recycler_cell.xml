@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/cell"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="left"
+    >
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_weight=".50"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="My To Do List"
+        android:textSize="15sp"
+        android:textColor="@color/colorText"
+        />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_weight=".30"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="My To Do List"
+        android:textSize="15sp"
+        android:textColor="@color/colorText"
+        />
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="0dp"
+        android:layout_weight=".20"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Edit"
+        android:textSize="15sp"
+        android:textColor="@color/colorText"
+        />
+</LinearLayout>
+
